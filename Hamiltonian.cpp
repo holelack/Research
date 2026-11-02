@@ -104,8 +104,8 @@ int main() {
 	init();
 	Floyd_Warshall();
 
-	// 완전 탐색
-	cout << "<Brute Force>\n";
+	// bitmask DP
+	cout << "<Bitmask DP>\n";
 	auto start = chrono::steady_clock::now();
 	cout << "Result: " << bitmask(S) << '\n';
 	auto end = chrono::steady_clock::now();
